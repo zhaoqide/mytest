@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 /**
- * Created by lihong10 on 2017/8/9.
+ * Created by lihong10 on 2017/8/9.等待
  * 一个循环计数器，每天从1开始计数，隔天重置为1。
  * 可以创建一个该类的全局对象，然后每次使用时候调用其get方法即可，可以保证线程安全性
  */
